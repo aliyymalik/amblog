@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+# encoding: utf-8
+"""
+css.py
+
+Created by Author Name on 9/6/2018.
+Copyright (c) 2018 Copyright Holder. All rights reserved.
+"""
+
+import sys
+import os
+import unittest
+
+
+class css:
+	def __init__(self):
+		pass
+
+
+class cssTests(unittest.TestCase):
+	def setUp(self):
+		pass
+
+
+if __name__ == '__main__':
+	unittest.main()
+	
+	var c=document.getElementById("canvas1");
+var ctx=c.getContext("2d");
+ctx.fillRect(20,20,100,100);

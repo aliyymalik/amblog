@@ -1,0 +1,221 @@
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration:none;
+ }
+ body{
+     background: silver;
+ }
+ .wrapper{
+     height: auto;
+     width: 100%;
+     overflow: hidden;
+ }
+ .header{
+     height:content;
+     width: 100%;
+     background: #fff;
+     box-shadow: 0 0 3px 0;
+     padding-top: 20px;
+     overflow: auto;
+ }
+ .sidebar{
+     height: content;
+     width: 15%;
+     float: left;
+     display: none;
+ }
+ .sidebar a{
+     display: block;
+     font-size: 20px;
+     color: teal;
+     text-decoration: none;
+     padding: 20px;
+ }
+ .sidebar a:hover{
+      background: #fff;
+      color: #000;
+ }
+ .main{
+     height: content;
+     width: 72.8%;
+     float: left;
+     background: #fff;
+     box-shadow: 0 0 3px 0;
+     margin: 10px 1.2%;
+     color: teal;
+     font-size: 20px;
+     padding: 20px;
+ }
+ .active-main{
+     width: 56.8%;
+ }
+ .main a{
+     color:steelblue;
+ }
+ .right{
+     width: 23%;
+     height: content;
+     float: left;
+     padding: 10px;
+     font-size: 20px;
+ }
+ .right .right1{
+     box-shadow: 0 0 3px 0;
+     width: 100%;
+     padding: 10px;
+     height: content;
+     margin:10px 0;
+     color: #ff00ff;
+     background: #fff;
+ }
+ .toggle{
+     height: content;
+     padding:10px;
+     width: 5%;
+     float: left;
+     margin-left: 1.2%;
+ }
+ .toggle span{
+     background: silver;
+     padding: 3px;
+     width: 30px;
+     height: 3px;
+     margin:3px;
+     display: block;
+     box-shadow: 0 0 2px 0;
+ }
+ .active-span1{
+     transform:rotate(45deg);
+     transform-origin: top;
+ }
+ .active-span2{
+     transform:rotate(135deg);
+     transform-origin: top;
+ }
+ .logo{
+     width: 15%;
+     float: left;
+     margin-left: 10px;
+     background: #fff;
+ }
+ .logo img{
+     border-radius: 50%;    
+ }
+ .logo img:hover{
+     box-shadow:0 0 3px 0;
+ }
+ .site-title{
+     width: 50%;
+     float: left;    
+     background: #fff;
+ }
+ .site-title h1{
+     color: teal;
+     text-shadow: 2px 2px silver;
+     font-size: 40px;
+     text-align: center;
+     text-transform: capitalize;
+ }
+ .site-title h1:hover{
+     color:steelblue;
+ }
+ .links{
+     float: right;
+     height: content;
+     width: 15%
+     background: #fff;
+     padding: 5px;
+ }
+ .links img{
+     border-radius: 50%;
+     margin-left: 3px;
+ }
+ .links a{
+     font-size: 30px;
+     color: teal;
+ }
+ .link a:hover{
+     color: lightblue;
+ }
+.footer{
+    background: silver;
+    height: 100px;
+    width: 100%;
+    color: #f0f;
+    text-align: center;
+    font-size: 20px;
+}
+blockquote{
+    background: silver;
+    color: #0af;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+.main img{
+        margin: 10px;
+        box-shadow: 0 0 3px 0 ;
+    }
+    /*  MEDIA QUERY TO MAKE IT FOR SMALLER DEVICES*/
+@media screen and (max-width:600px){
+    .sidebar,.main,.right{
+        width:100%;
+        float: none;
+        margin:5px 0;
+    }
+    .links{
+        position: fixed;
+        bottom: 0;
+        background: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    .site-title{
+        float: right;
+        width: 50%;
+        margin-left: 0;
+        padding-top: 5px;
+    }                         
+    .site-title h1{
+            font-size: 25px;    
+    }
+    .logo,.toggle{
+        width: 20%;
+    }
+    .main img{
+        width: 100%;
+        margin: 0;
+    }
+}
+/* media query for devices like tablets
+and screen size medium
+*/
+@media screen and (max-width: 782px) and (min-width: 600px){
+    .right{
+        width: 100%;
+    }
+    .right .right1{
+        width: 48%;
+        float: left;
+        margin: 5px;
+    }
+    .main{
+        width: 100%;
+    }
+    .active-main{
+        width: 72%;
+    }
+    .sidebar{
+        width: 25%;
+    }
+    .toggle{
+        width: 10%;
+    }
+.links a{
+    color:teal;
+    font-size:20px;
+    padding:0 10px;
+    }
+}

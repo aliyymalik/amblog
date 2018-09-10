@@ -1,0 +1,30 @@
+body {
+    background:#00f000;
+}
+
+
+p,.jumbotron{
+    color:#ffff00;
+    padding-top:0;
+    text-align:center ;
+    background:purple;
+    border:6px double  grey;
+}
+pre{
+    text-align:center ;
+    color:#ffff00;
+    border:dashed 3px purple;    
+    background:grey;
+}
+.tom{
+    text-align:center;
+    background:purple;
+    border:dotted 2px pink;
+    color:#ffff00;
+}
+h4{
+    text-align:center;
+    color:#ffff00;
+    border:dashed 10px purple;
+    background:grey;
+}
